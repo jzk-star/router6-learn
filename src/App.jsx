@@ -11,22 +11,22 @@ import routes from './routes'
 export default function App() {
 
   //路由表
-  const element = useRoutes(routes
-    // [
-    // {
-    //   path:'/about',
-    //   element:<About/>
-    // },
-    // {
-    //   path:'/home',
-    //   element:<Home/>
-    // },
-    // {
-    //   path:'/',
-    //   element:<Navigate to='/about'/>
-    // }
-    // ]
-  )
+  // const element = useRoutes(routes
+  //   // [
+  //   // {
+  //   //   path:'/about',
+  //   //   element:<About/>
+  //   // },
+  //   // {
+  //   //   path:'/home',
+  //   //   element:<Home/>
+  //   // },
+  //   // {
+  //   //   path:'/',
+  //   //   element:<Navigate to='/about'/>
+  //   // }
+  //   // ]
+  // )
 
   return (
     <div>
@@ -52,7 +52,7 @@ export default function App() {
                 <Route path='/home'element={<Home/>}/>
                 <Route path='/'element={<Navigate to='/about'/>}/>
               </Routes> */}
-              {element}
+              {/* {element} */}
             </div>
           </div>
         </div>
